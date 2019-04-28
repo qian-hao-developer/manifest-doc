@@ -2,13 +2,13 @@
 <manifest>
 
     <remote  name="origin"
-        fetch="git@github.com:qian-hao-developer/" />
+        fetch="ssh://git@github.com/" />
     <default revision="refs/heads/master"
         remote="origin"
         sync-j="8" />
 
-    <project path="envi" name="envi.git"/>
-    <project path="mms" name="MMS-IMP.git"/>
-    <project path="tips" name="Tips.git"/>
+    <project path="envi" name="qian-hao-developer/envi.git"/>
+    <project path="mms" name="qian-hao-developer/MMS-IMP.git"/>
+    <project path="tips" name="qian-hao-developer/Tips.git"/>
 
 </manifest>
